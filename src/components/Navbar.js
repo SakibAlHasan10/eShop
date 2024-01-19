@@ -6,6 +6,10 @@ const Navbar = () => {
   return (
     <div>
       <PageSize>
+        <div>
+        <div>Hi! <Link href={"signin"}>Sign In</Link>
+        or <Link href={"register"}>Register</Link>
+        </div>
         <div className="flex justify-between items-center">
           <div>
             <h2>eShop</h2>
@@ -22,6 +26,7 @@ const Navbar = () => {
               <button>Electronics</button>
             </Link>
           </div>
+        </div>
         </div>
       </PageSize>
     </div>
