@@ -17,12 +17,9 @@ const SearchBar = () => {
               </h2>
               {/* <Image src={""} alt='logo'></Image> */}
             </div>
-            <div className="form-control">
-              <input
-                type="text"
-                placeholder="Search"
-                className="input input-bordered w-24 md:w-auto"
-              />
+            <div className="w-10/12">
+            <input className="border-2 border-black px-3 text-base w-9/12 h-10" placeholder="Search for anything" />
+              <button className="w-[200px] ml-2 bg-blue-700 h-10 text-white">Search</button>
             </div>
           </div>
         </div>

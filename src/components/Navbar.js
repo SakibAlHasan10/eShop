@@ -15,6 +15,9 @@ const Navbar = () => {
               <button>Saved</button>
             </Link>
             <Link href={"/electronics"}>
+              <button>Motors</button>
+            </Link>
+            <Link href={"/electronics"}>
               <button>Electronics</button>
             </Link>
           </div>
