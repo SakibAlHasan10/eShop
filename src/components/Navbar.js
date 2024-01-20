@@ -17,7 +17,7 @@ const Navbar = () => {
       <PageSize>
         <div className="flex items-center justify-between text-sm my-4">
           {
-            navs?.map(nav=><Link key={nav} href={`/${nav}`} className="hover:border-x px-2 border-black"><button>{nav}</button></Link>)
+            navs?.map(nav=><Link key={nav} href={`/${nav}`} className="hover:border-x px-2 border-black "><button className="hover:text-blue-500 hover:underline">{nav}</button></Link>)
           }
         </div>
         {/* <div className="my-3">
