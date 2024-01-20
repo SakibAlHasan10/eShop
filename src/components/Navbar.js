@@ -6,13 +6,8 @@ const Navbar = () => {
   return (
     <div>
       <PageSize>
-        <div>
-        <div className="flex justify-between items-center">
-          <div>
-            <h2>eShop</h2>
-            {/* <Image src={""} alt='logo'></Image> */}
-          </div>
-          <div>
+        <div className="my-3">
+          <div className="flex items-center justify-between gap-5">
             <Link href={"/"}>
               <button>Home</button>
             </Link>
@@ -23,7 +18,6 @@ const Navbar = () => {
               <button>Electronics</button>
             </Link>
           </div>
-        </div>
         </div>
       </PageSize>
     </div>
