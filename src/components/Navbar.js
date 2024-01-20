@@ -7,9 +7,6 @@ const Navbar = () => {
     <div>
       <PageSize>
         <div>
-        <div>Hi! <Link href={"signin"}>Sign In</Link>
-        or <Link href={"register"}>Register</Link>
-        </div>
         <div className="flex justify-between items-center">
           <div>
             <h2>eShop</h2>
