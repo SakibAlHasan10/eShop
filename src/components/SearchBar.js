@@ -17,9 +17,22 @@ const SearchBar = () => {
               </h2>
               {/* <Image src={""} alt='logo'></Image> */}
             </div>
-            <div className="w-10/12">
-            <input className="border-2 border-black px-3 text-base w-9/12 h-10" placeholder="Search for anything" />
-              <button className="w-[200px] ml-2 bg-blue-700 h-10 text-white">Search</button>
+            <div className="w-10/12 flex">
+              <div>
+                <p>Short by Category</p>
+                </div>
+              {/* <div className="flex-row"> */}
+                <input
+                  className="border-2 border-black px-3 text-base w-9/12 h-10"
+                  placeholder="Search for anything"
+                />
+                <button className="w-[200px] ml-2 bg-blue-700 h-10 text-white">
+                  Search
+                </button>
+              {/* </div> */}
+            </div>
+            <div>
+              <p>Advanced</p>
             </div>
           </div>
         </div>
