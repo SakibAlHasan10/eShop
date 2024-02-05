@@ -14,13 +14,13 @@ const TopNavbar = () => {
           
           <Link href={"register"} className="text-blue-600 underline">Register</Link>
             </div>
-          <Link href={"register"}>Daily Deals</Link>
-          <Link href={"register"}>Brand Outlet</Link>
-          <Link href={"register"}>Gift Cards</Link>
-          <Link href={"register"}>Help & Contact</Link>
+          <Link className="hover:underline" href={"register"}>Daily Deals</Link>
+          <Link className="hover:underline" href={"register"}>Brand Outlet</Link>
+          <Link className="hover:underline" href={"register"}>Gift Cards</Link>
+          <Link className="hover:underline" href={"register"}>Help & Contact</Link>
         </div>
         <div className="flex items-center gap-5">
-          <Link href={""}>Sell</Link>
+          <Link className="hover:underline" href={""}>Sell</Link>
           <Link href={""}>Watchlist</Link>
           <Link href={""}>My eShop</Link>
         </div>
