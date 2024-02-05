@@ -21,11 +21,20 @@ const SearchBar = () => {
               <div>
                 <button className="text-sm hover:text-blue-500 mr-3 text-right">Short by Category</button>
                 </div>
+                <div className="flex w-full">
+
                 <input
                   className="border-2 border-black px-3 text-base w-9/12 h-10"
                   placeholder="Search for anything"
                 />
-                <button className="w-[200px] ml-2 bg-blue-700 h-10 text-white">
+                <select className="mb-6 text-xs h-9">
+                  <option>All Categories</option>
+                  <option>B</option>
+                  <option>C</option>
+                </select>
+                </div>
+
+                <button className="w-[200px] ml-20 bg-blue-700 h-10 text-white">
                   Search
                 </button>
             </div>
